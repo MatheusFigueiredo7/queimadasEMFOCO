@@ -400,6 +400,8 @@ a:focus {
   color: #ffffff;
 }
 
+
+
 .trainer_section .box {
   margin-top: 55px;
   display: -webkit-box;
@@ -442,6 +444,46 @@ a:focus {
   border-radius: 50px;
   margin-top: -25px;
 }
+
+.galeria_section {
+  background-image: url(../images/hero-bg.jpg); /* Imagem de fundo diferente */
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.galeria_section .box {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.galeria_section .box .name h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.galeria_section .box .img-box {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.galeria_section .box .img-box img {
+  width: 100%;
+}
+
+.galeria_section .box .social_box {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+  padding: 12px 45px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-top: -25px;
+}
+
 
 .contact_section {
   position: relative;
