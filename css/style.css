@@ -557,7 +557,13 @@ a:focus {
 .info_items .item .detail-box {
   margin-top: 5px;
   color: #fff;
+  transition: background-color 0.3s, color 0.3s; /* Para suavizar a transição */
 }
+
+.info_items .item .detail-box:hover {
+  color: #ff2953; /* Muda a cor do texto ao passar o mouse */
+}
+
 
 .info_items {
   position: relative;
