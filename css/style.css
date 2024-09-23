@@ -301,6 +301,13 @@ a:focus {
   color: #ffffff;
 }
 
+.pv_section {
+  background-image: url(../images/combate.png);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
 .us_section .us_container {
   padding-top: 25px;
 }
