@@ -445,7 +445,7 @@ a:focus {
 
 .contact_section {
   position: relative;
-  background-color: #27223f;
+  background-color: black;
   color: #ffffff;
 }
 
@@ -517,7 +517,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #252233;
+  background-color: black;
 }
 
 .info_items {
@@ -581,19 +581,23 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #fbfdfd;
+  background-color: black;
   padding: 20px;
   font-weight: 500;
 }
 
 .footer_section p {
-  color: #292929;
+  color: #ffffff;
   margin: 0;
   text-align: center;
 }
 
 .footer_section a {
-  color: #292929;
+  color: #ffffff;
+}
+
+.footer_section a:hover {
+  color: #ff2953;
 }
 
 /* end footer section*/
