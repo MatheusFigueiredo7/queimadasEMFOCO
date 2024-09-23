@@ -606,5 +606,18 @@ a:focus {
   color: #ff2953;
 }
 
+.img-box {
+  overflow: hidden; /* Garante que a imagem não ultrapasse o contêiner */
+}
+
+.img-box img {
+  transition: transform 0.3s ease; /* Suaviza a transição */
+}
+
+.img-box:hover img {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
