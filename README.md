@@ -112,7 +112,7 @@ To run the site locally, follow the steps below:
 Clone the repository using Git command:
 
 ```bash
-git clone https://github.com/yourusername/queimadasEMFOCO.git
+git clone https://github.com/MatheusAlmeida06/queimadasEMFOCO.git
 ```
 
 ### 2. Navigate to the Project Directory 📂
