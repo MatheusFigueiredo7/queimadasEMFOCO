@@ -82,7 +82,6 @@ body {
   }
 }
 
-/*header section*/
 .hero_area {
   height: 100vh;
   display: flex;
@@ -220,7 +219,6 @@ a:focus {
   background-size: 55px;
 }
 
-/*end header section*/
 
 .slider_section {
   flex: 1;
@@ -299,11 +297,6 @@ a:focus {
   }
 }
 
-// end slider section
-
-
-// us section
-
 .us_section {
   background-image: url(../images/us-bg.jpg);
   background-size: cover;
@@ -339,9 +332,6 @@ a:focus {
     }
   }
 }
-
-
-// end us section
 
 .pv_section {
   background-image: url(../images/combate.png);
@@ -379,8 +369,6 @@ a:focus {
   }
 }
 
-// heathy section
-
 .heathy_section {
   background-image: url(../images/healthy-bg.jpg);
   background-size: cover;
@@ -408,11 +396,6 @@ a:focus {
     }
   }
 }
-
-// end heathy section
-
-
-// trainer section
 
 .trainer_section {
   background-image: url(../images/trainer-bg.jpg);
@@ -456,11 +439,6 @@ a:focus {
   }
 }
 
-
-// end trainer section
-
-
-// contact section
 .contact_section {
   position: relative;
   background-color: #27223f;
@@ -527,13 +505,6 @@ a:focus {
 
 }
 
-// end contact section
-
-
-
-
-
-// info section
 .info_section {
   background-color: #252233;
 }
@@ -590,13 +561,6 @@ a:focus {
   }
 }
 
-// end info section
-
-
-
-
-/* footer section*/
-
 .footer_section {
   background-color: #fbfdfd;
   padding: 20px;
@@ -612,5 +576,3 @@ a:focus {
 .footer_section a {
   color: #292929;
 }
-
-/* end footer section*/

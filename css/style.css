@@ -59,7 +59,7 @@ body {
           transform: translateX(-50%);
 }
 
-/*header section*/
+
 .hero_area {
   height: 100vh;
   display: -webkit-box;
@@ -199,7 +199,7 @@ a:focus {
   background-size: 55px;
 }
 
-/*end header section*/
+
 .slider_section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -446,7 +446,7 @@ a:focus {
 }
 
 .galeria_section {
-  background-image: url(../images/hero-bg.jpg); /* Imagem de fundo diferente */
+  background-image: url(../images/hero-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -599,11 +599,11 @@ a:focus {
 .info_items .item .detail-box {
   margin-top: 5px;
   color: #fff;
-  transition: background-color 0.3s, color 0.3s; /* Para suavizar a transição */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .info_items .item .detail-box:hover {
-  color: #ff2953; /* Muda a cor do texto ao passar o mouse */
+  color: #ff2953;
 }
 
 
@@ -627,7 +627,7 @@ a:focus {
   background-image: url(../images/envelope-white.png);
 }
 
-/* footer section*/
+
 .footer_section {
   background-color: black;
   padding: 20px;
@@ -649,17 +649,16 @@ a:focus {
 }
 
 .img-box {
-  overflow: hidden; /* Garante que a imagem não ultrapasse o contêiner */
+  overflow: hidden;
 }
 
 .img-box img {
-  transition: transform 0.3s ease; /* Suaviza a transição */
+  transition: transform 0.3s ease;
 }
 
 .img-box:hover img {
-  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+  transform: scale(1.1);
 }
 
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+
